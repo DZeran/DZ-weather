@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌡DZ's Weather🌂</title>
+  
+  <script
+      src="https://kit.fontawesome.com/1fd6a2d7a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+<link href="src/styles.css" rel="stylesheet" type="text/css" />
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<div class="card" id="card">
+  <div class="card-header">
+   Coded by Dynva Zeran
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">
+      <i class="fas fa-temperature-low"></i> Today's Weather <i class="fas fa-temperature-high"></i></h5>
+    <p class="weather" id="weatherInfo">
+      💧 Precipitation: 81%
+      🌬️ Wind: s 20 mph
+      ☔ Chance of Rain: 78%
+      <div class="weather" 
+      id="sunRiseSet">🌅 Sunrise: 6:07 AM
+        🌇 Sunset: 8:26 PM
+      </div>
+  </p>
+    
+<body>
+    <div class="container">
+        <div class="row-3">
+        <div><h1>Wilmington</h1></div>
+        <div>
+          <h2 id="date"></h2>
+          <span id="currentTemperature">23</span><a href="#" id="celsius-link">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a>    
+          </div>
+        </div>
+        </div>
+  
+    
+    <form class="search-form"id="search-form">
+        <div class="container">
+              <input
+                id="query"
+                type="search"
+                placeholder="Enter city. . . "
+                autofocus="on"
+                autocomplete="off"
+                class="form-control shadow-sm" />
+                <button type="submit" class="btn btn-success btn-search">
+                  Search
+                </button>
+                <button id= "currentLocation" type="submit" class="btn btn-success btn-search">
+                  Current Location
+                </button>
+             </div>
+</form>
+
+
+<div class="container" id=info>
+       <p>
+          
+          <div class="daily-info"> Humidity: 78% </div>
+          <div class="daily-info"> Chance of Rain: 88% </div>
+          <div class="daily-info"> Air Quailty: 50 <strong> GOOD </strong></div>
+          <div>
+      <img src="src/pictures/umbrella.gif" alt="umbrella" id="img"/>
+          </div>
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   
+    
+    <div class="container">
+    <div class="row-3">
+    <div class="col-sm-2"></div>
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title">Monday</h5>                                                                                                                                   
+    <h6 class="cloudy"><i class="fas fa-cloud-sun"></i></h6>
+    <p><div class="weather"> Mostly Cloudy </div> 
+    <div class="temp">95° / 81°</div>
+   </p>
+  </div>
+</div>
+</div>
+</div>
+  
+
+    <div class="col-sm-2"></div>
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title">Tuesday</h5>
+    <h6 class="cloudy"> <i class="fas fa-cloud-sun"></i> </h6>
+    <p><div class="weather"> Mostly Cloudy </div> 
+    <div class="temp">86° / 67°</div>
+    </p>
+    </div>
+  </div>
+
+
+    <div class="col-sm-2"></div>
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title">Wednesday</h5>
+    <h6 class="rainy"> <i class="fas fa-umbrella"></i> </h6>
+    <p><div class="weather"> Rainy </div> 
+    <div class="temp">88° / 72°</div>
+    </p>
+    </div>
+</div>
+
+
+    <div class="col-sm-2"></div>
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title">Thursday</h5>
+    <h6 class="rainy"> <i class="fas fa-umbrella"></i> </h6>
+    <p><div class="weather"> Rainy </div> 
+    <div class="temp">82° / 73°</div>
+    </p>
+    </div>
+</div>
+
+
+<div class="col-sm-2"></div>
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title">Friday</h5>
+    <h6 class="rainy"> <i class="fas fa-umbrella"></i> </h6>
+    <p><div class="weather"> Rainy </div> 
+    <div class="temp">86° / 72°</div>
+    </p>
+    </div>
+  </div>
+
+
+<script src="src/index.js"></script>
+</body>
+</html>

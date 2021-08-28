@@ -1,0 +1,159 @@
+body {
+  background: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  font-family: "Otomanopee One", sans-serif;
+}
+
+h5 {
+  text-align: center;
+  color: #ffb5b5;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #9face6;
+  font-size: 31px;
+}
+
+h2 {
+  text-align: center;
+  color: #9face6;
+  font-size: 24px;
+}
+
+#info {
+  text-align: center;
+  color: #132743;
+  background: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+#search-form {
+  float: right;
+  padding: 31px, 24px;
+}
+
+#query {
+  text-align: center;
+  border-radius: 3px;
+  color: #407088;
+  padding: 17px 31px;
+  display: inline;
+}
+
+.weather {
+  color: #ffb5b5;
+  font-size: 21px;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+.card-header {
+  font-size: 11px;
+  color: #9face6;
+  text-align: center;
+}
+
+button {
+  border: 1px solid #132743;
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+  background: #f5e1da;
+  color: #407088;
+  border-radius: 3px;
+  display: inline-flex;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 220px;
+}
+
+button :hover {
+  border: 1px solid #132743;
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+  background: #ebebeb;
+  color: #407088;
+}
+
+#img {
+  box-sizing: 8px;
+}
+
+.card-body {
+  background: #132743;
+  display: inline;
+}
+
+.row {
+  position: flex;
+  margin-top: 55px;
+  margin-bottom: 31px;
+  margin-right: 75px;
+}
+
+.box {
+  margin-left: 68px;
+  margin-top: 25px;
+  width: 55px;
+  display: inline-flex;
+}
+
+.work {
+  text-align: center;
+  font-size: 15px;
+  color: #9face6;
+}
+
+#col {
+  padding: 3px;
+  margin-left: 420px;
+  margin-right: 420px;
+}
+
+#col-sm-2 {
+  padding: 3px;
+  margin-left: 420px;
+  margin-right: 420px;
+}
+
+.rainy {
+  text-align: center;
+  color: #74ebd5;
+  font-size: 18px;
+}
+
+.cloudy {
+  text-align: center;
+  color: #9face6;
+  font-size: 18px;
+}
+
+.weatherInfo {
+  color: #132743;
+  font-size: 15px;
+  text-align: center;
+}
+
+.temp {
+  color: #9face6;
+  font-size: 15px;
+  text-align: center;
+}
+
+.fa-search-location {
+  font-weight: 900;
+  font-size: 21px;
+}
+#currentTemperature {
+  text-align: center;
+  font-size: 31px;
+  color: #74ebd5;
+}
+#celsius-link,
+#fahrenheit-link {
+  text-align: center;
+  color: #ffb5b5;
+  font-size: 24px;
+}
