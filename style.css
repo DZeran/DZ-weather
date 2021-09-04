@@ -23,8 +23,8 @@ h2 {
 
 #info {
   text-align: center;
-  color: #132743;
-  background: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  color: #74ebd5;
+  background: #132743;
 }
 
 #search-form {
@@ -131,10 +131,11 @@ button :hover {
   font-size: 18px;
 }
 
-.weatherInfo {
+#weatherInfo {
   color: #132743;
   font-size: 15px;
   text-align: center;
+  display: block;
 }
 
 .temp {
