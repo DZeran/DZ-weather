@@ -43,6 +43,12 @@ h2 {
   text-align: center;
 }
 
+.temp {
+  color: #f5e1da;
+  font-size: 18px;
+  text-align: center;
+}
+
 h6 {
   text-align: center;
 }
@@ -53,7 +59,7 @@ h6 {
   text-align: center;
 }
 
-button {
+#button {
   border: 1px solid #132743;
   font-size: 18px;
   transition: all 200ms ease-in-out;
@@ -66,7 +72,7 @@ button {
   margin-left: 220px;
 }
 
-button :hover {
+#button :hover {
   border: 1px solid #132743;
   font-size: 18px;
   transition: all 200ms ease-in-out;
@@ -77,13 +83,6 @@ button :hover {
 .card-body {
   background: #132743;
   display: block;
-}
-
-.row {
-  position: flex;
-  margin-top: 55px;
-  margin-bottom: 31px;
-  margin-right: 75px;
 }
 
 .box {
@@ -99,16 +98,8 @@ button :hover {
   color: #9face6;
 }
 
-#col {
-  padding: 3px;
-  margin-left: 420px;
-  margin-right: 420px;
-}
-
-#col-sm-2 {
-  padding: 3px;
-  margin-left: 420px;
-  margin-right: 420px;
+.col-sm-2 {
+  padding: 0 auto;
 }
 
 .rainy {
@@ -134,12 +125,6 @@ button :hover {
   font-weight: 900;
   font-size: 21px;
 }
-#currentTemperature {
-  text-align: center;
-  font-size: 31px;
-  color: #407088;
-  display: block;
-}
 
 #celsius-link,
 #fahrenheit-link,
@@ -148,4 +133,10 @@ button :hover {
   color: #132743;
   font-size: 18px;
   display: block;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  color: black;
 }
