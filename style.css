@@ -11,10 +11,9 @@ h5 {
 
 h1 {
   text-align: center;
-  color: #9face6;
+  color: #f5e1da;
   font-size: 31px;
   display: block;
-  padding-left: 420px;
 }
 
 h2 {
@@ -139,6 +138,7 @@ button :hover {
   text-align: center;
   font-size: 31px;
   color: #407088;
+  display: block;
 }
 
 #celsius-link,
@@ -147,4 +147,5 @@ button :hover {
   text-align: center;
   color: #132743;
   font-size: 18px;
+  display: block;
 }
