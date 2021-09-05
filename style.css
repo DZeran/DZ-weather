@@ -128,11 +128,12 @@ h6 {
 
 #celsius-link,
 #fahrenheit-link,
+#currentTemperature,
 #weatherInfo {
   text-align: center;
   color: #132743;
   font-size: 18px;
-  display: block;
+  display: inline;
 }
 
 footer {
