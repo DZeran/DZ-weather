@@ -21,10 +21,11 @@ h2 {
   font-size: 24px;
 }
 
-#info {
+.dailyinfo {
   text-align: center;
   color: #74ebd5;
-  background: #132743;
+  display: block;
+  font-size: 15px;
 }
 
 #search-form {
@@ -44,10 +45,6 @@ h2 {
   color: #ffb5b5;
   font-size: 21px;
   text-align: center;
-}
-
-#this {
-    background: #132743;
 }
 
 h6 {
@@ -81,10 +78,9 @@ button :hover {
   color: #407088;
 }
 
-
 .card-body {
   background: #132743;
-  display: inline;
+  display: block;
 }
 
 .row {
@@ -131,8 +127,8 @@ button :hover {
   font-size: 18px;
 }
 
-#weatherInfo {
-  color: #132743;
+#this {
+  color: #ffb5b5;
   font-size: 15px;
   text-align: center;
   display: block;
