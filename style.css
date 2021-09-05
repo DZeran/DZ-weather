@@ -21,37 +21,24 @@ h2 {
   font-size: 24px;
 }
 
-.dailyinfo {
-  text-align: center;
-  color: #74ebd5;
-  display: block;
-  font-size: 15px;
-}
-
-#search-form {
-  float: right;
-  padding: 31px, 24px;
-}
-
 #query {
   text-align: center;
   border-radius: 3px;
   color: #a0a0a0;
   padding: 17px 31px;
-  display: inline;
+  display: block;
+}
+
+.weatherExtra {
+  font-size: 18px;
+  color: #9face6;
+  text-align: center;
 }
 
 .weather {
-  color: #ffb5b5;
+  color: #f5e1da;
   font-size: 21px;
   text-align: center;
-}
-
-#weatherInfo {
-  color: #132743;
-  font-size: 18px;
-  text-align: center;
-  display: block;
 }
 
 h6 {
@@ -141,12 +128,6 @@ button :hover {
   display: block;
 }
 
-.temp {
-  color: #9face6;
-  font-size: 15px;
-  text-align: center;
-}
-
 .fa-search-location {
   font-weight: 900;
   font-size: 21px;
@@ -158,8 +139,9 @@ button :hover {
 }
 
 #celsius-link,
-#fahrenheit-link {
+#fahrenheit-link,
+#weatherInfo {
   text-align: center;
-  color: #ffb5b5;
-  font-size: 24px;
+  color: #132743;
+  font-size: 18px;
 }
