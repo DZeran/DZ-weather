@@ -26,23 +26,25 @@
 
   </head>
     <div class="container">
-      <div class="weatherAppWrapper">
-        <div class="weatherApp">
-        <form id="search-form" class="mb-3">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-4">
             <div class="row">
               <div class="col-9">
                 <input
                   type="search"
-                  placeholder="New Location Here"
+                  placeholder="Search city"
                   class="form-control"
                   id="city-input"
-                  autocomplete="off"/>
+                  autocomplete="off"
+                />
               </div>
               <div class="col-3">
-               <input
+                <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"/>
+                  class="btn btn-primary w-100"
+                />
               </div>
             </div>
           </form>
@@ -52,36 +54,42 @@
               <li>Last updated: <span id="date"></span></li>
               <li id="description"></li>
             </ul>
-          </div>
-          <div class="row">
-            
-            <div class="col-6">
-              <div class="clearfix weatherTemperature">
-                <img src="" alt="" class="floatLeft" id="icon" />
-                <div class="floatLeft">
-                 <strong id="temperature"></strong>
-                 <span class="units"
-                    ><a href="#" id="celsius-link" class="active">°C</a> |
-                    <a href="#" id="fahrenheit-link" class="inactive"
-                      >°F</a
-                    ></span
-                  >
+            <div class="row">
+              <div class="col-6">
+                <div class="clearfix weather-temperature">
+                  <img
+                    src=""
+                    alt="partly cloudy"
+                    id="icon"
+                    class="float-left"
+                  />
+                  <div class="float-left">
+                    <strong id="temperature"></strong>
+                    <span class="units">
+                      <a href="#" id="fahrenheit-link" class="active">°F</a> |<a
+                        href="#"
+                        id="celsius-link"
+                        >°C</a
+                      ></span
+                    >
+                  </div>
                 </div>
               </div>
+              <div class="col-6">
+                <ul>
+                  <li>Humidity <span id="humidity"></span>%</li>
+                  <li>Wind <span id="wind"></span>mph</li>
+                </ul>
+              </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
-              </ul>
-            </div>
+            <div class="weather-forecast" id="forecast"></div>
           </div>
         </div>
-
-  
-<footer>
-<small><a href="https://github.com/DZeran/DZ-weather" target="_blank">Open-source code</a>, by Dynva F. Zeran</small>
-</footer>
-<script src="index.js"></script>
-</body>
+        <footer>
+					<small><a href="https://github.com/DZeran/DZ-weather" target="_blank">Open-source code by</a> Dynva F. Zeran</small>
+					</footer>
+			
+	
+    <script src="index.js"></script>
+  </body>
 </html>
